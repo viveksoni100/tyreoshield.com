@@ -1401,3 +1401,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 	.wprt-pagination, .woocommerce-pagination { margin-top: 40px; }
 }
 
+/*@media only screen and (max-width: 360px) {
+	.banner-screen { display: none; }
+}*/
+

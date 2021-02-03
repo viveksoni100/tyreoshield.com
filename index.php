@@ -55,16 +55,7 @@
                                     <span class="rt-icon-facebook" aria-hidden="true"></span>
                                 </a>
                                 <a href="#" title="Twitter">
-                                	<span class="rt-icon-twitter" aria-hidden="true"></span>
-                                </a>
-                                <a href="#" title="Vimeo">
-                                    <span class="rt-icon-vimeo" aria-hidden="true"></span>
-                                </a>
-                                <a href="#" title="Pinterest">
-                                    <span class="rt-icon-pinterest" aria-hidden="true"></span>
-                                </a>
-                                <a href="#" title="Sktype">
-                                    <span class="rt-icon-skype" aria-hidden="true"></span>
+                                	<span class="rt-icon-instagram" aria-hidden="true"></span>
                                 </a>
                             </span>
                             </div>
@@ -79,9 +70,8 @@
                     <div class="wrap-inner">
                         <div id="site-logo" class="clearfix">
                             <div id="site-logo-inner">
-                                <a href="home.html" title="CarBest" rel="home" class="main-logo"><img
-                                            src="assets/img/logo.png" width="202" height="52" alt="AutoServie"
-                                            data-retina="assets/img/logo@2x.png" data-width="202" data-height="52"></a>
+                                <a href="index.php" title="CarBest" rel="home" class="main-logo"><img
+                                            src="assets/img/ts-logo-landscape.png" width="202" height="52" alt="AutoServie"></a>
                             </div>
                         </div><!-- #site-logo -->
 
@@ -97,7 +87,7 @@
                                     <div class="info-one">
                                         <div class="info-wrap">
                                             <div class="info-i"><span><i class="rt-icon-chat2"></i></span></div>
-                                            <div class="info-c"><span class="title">+1 718-999-3939</span><br><span
+                                            <div class="info-c"><span class="title">+1 99798-86825</span><br><span
                                                         class="subtitle">contact@autoser.com</span></div>
                                         </div>
                                     </div>
@@ -251,70 +241,6 @@
                             </li>
                         </ul><!-- /.nav-extend -->
 
-                        <div class="nav-top-cart-wrapper">
-                            <a class="nav-cart-trigger" href="page-shop-cart.html">
-                            <span class="cart-icon rt-icon-bag">
-                                <span class="shopping-cart-items-count">6</span>
-                            </span>
-                            </a>
-
-                            <div class="nav-shop-cart">
-                                <div class="widget_shopping_cart_content">
-                                    <div class="woocommerce-min-cart-wrap">
-                                        <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                                            <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                <a href="#" class="remove"><span class="fa fa-close"></span></a><a
-                                                        href="#">
-                                                    <img width="150" height="150"
-                                                         src="assets/img/shop/shop-item-150x150.jpg" alt="Image">Advance
-                                                    Blue Oil Cans
-                                                </a>
-
-                                                <span class="quantity">1 × <span
-                                                            class="woocommerce-Price-amount amount"><span
-                                                                class="woocommerce-Price-currencySymbol">$</span>65.00</span></span>
-                                            </li>
-
-                                            <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                <a href="#" class="remove"><span class="fa fa-close"></span></a><a
-                                                        href="#">
-                                                    <img width="150" height="150"
-                                                         src="assets/img/shop/shop-item-150x150.jpg" alt="Image">Simple
-                                                    Blue Oil Cans
-                                                </a>
-
-                                                <span class="quantity">3 × <span
-                                                            class="woocommerce-Price-amount amount"><span
-                                                                class="woocommerce-Price-currencySymbol">$</span>35.00</span></span>
-                                            </li>
-
-                                            <li class="woocommerce-mini-cart-item mini_cart_item">
-                                                <a href="#" class="remove"><span class="fa fa-close"></span></a><a
-                                                        href="#">
-                                                    <img width="150" height="150"
-                                                         src="assets/img/shop/shop-item-150x150.jpg" alt="Image">Premium
-                                                    Blue Oil Cans
-                                                </a>
-
-                                                <span class="quantity">2 × <span
-                                                            class="woocommerce-Price-amount amount"><span
-                                                                class="woocommerce-Price-currencySymbol">$</span>45.00</span></span>
-                                            </li>
-                                        </ul>
-
-                                        <p class="woocommerce-mini-cart__total total"><strong>Subtotal:</strong> <span
-                                                    class="woocommerce-Price-amount amount"><span
-                                                        class="woocommerce-Price-currencySymbol">$</span>260.00</span>
-                                        </p>
-
-                                        <p class="woocommerce-mini-cart__buttons buttons"><a href="#"
-                                                                                             class="button wc-forward">View
-                                                cart</a><a href="#" class="button checkout wc-forward">Checkout</a></p>
-                                    </div><!-- /.widget_shopping_cart_content -->
-                                </div>
-                            </div><!-- /.nav-shop-cart -->
-                        </div><!-- /.nav-top-cart-wrapper -->
-
                         <div id="header-search">
                             <a class="header-search-icon" href="#"><span class="rt-icon-search2"></span></a>
                             <form role="search" method="get" class="header-search-form" action="#">
@@ -365,7 +291,7 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                HONEST, QUALITY WORK
+                                                TYREOSHEILD
                                             </div>
 
                                             <div class="tp-caption tp-resizeme text-white font-heading font-weight-700"
@@ -387,10 +313,10 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                AT AFFORDABLE PRICES
+                                                Anti Puncture Tyre Sealant
                                             </div>
 
-                                            <div class="tp-caption tp-resizeme text-white"
+                                            <!--<div class="tp-caption tp-resizeme text-white banner-screen"
                                                  data-x="['left','left','left','center']"
                                                  data-hoffset="['0','0','0','0']"
                                                  data-y="['middle','middle','middle','middle']"
@@ -409,10 +335,11 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                We provide top-notch service for import and domestic car repairs.
-                                                Servicing Brakes,<br> Exhaust, Tune Ups, Engine Repairs, Electrical and
-                                                A.C Systems.
-                                            </div>
+                                                TYREOSHEILD is a unique blend of Chemicals i.e., Ethylene Glycol for Tube Tires
+                                                and Propylene Glycol for Tubeless Tires,<br/> which includes SMan Made Fibers Tire Particles and
+                                                Thixo$el for thixotropic Properties.<br/> Once filled into a Tyre through the valve, Tyreoshild
+                                                changes andordinary pneumatictyre into PunctureProof Tire.
+                                            </div>-->
 
                                             <div class="tp-caption"
                                                  data-x="['left','left','left','center']"
@@ -463,7 +390,7 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                COMPETITIVE PRICES
+                                                TYREOSHEILD
                                             </div>
 
                                             <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-center"
@@ -485,7 +412,7 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                LONG TERM WARRANTIES
+                                                is tested by
                                             </div>
 
                                             <div class="tp-caption tp-resizeme text-white text-center"
@@ -507,9 +434,10 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                We provide top-notch service for import and domestic car repairs.
-                                                Servicing Brakes,<br> Exhaust, Tune Ups, Engine Repairs, Electrical and
-                                                A.C Systems.
+                                                Automotive Research Association of India,
+                                                Government Of India, Pune.<br/>
+                                                Inctian Rubber Manufacturers Research Association,
+                                                Government Of India, Thane.
                                             </div>
 
                                             <div class="tp-caption text-center"
@@ -561,7 +489,7 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                MASTER MAINTENANCE
+                                                TYREOSHEILD designed for use
                                             </div>
 
                                             <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-right"
@@ -583,10 +511,10 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                & QUALIFIED TECHNICIANS
+                                                in domestic and commercial vehicles
                                             </div>
 
-                                            <div class="tp-caption tp-resizeme text-white text-right"
+                                            <!--<div class="tp-caption tp-resizeme text-white text-right"
                                                  data-x="['center','center','center','center']"
                                                  data-hoffset="['0','0','0','0']"
                                                  data-y="['middle','middle','middle','middle']"
@@ -605,10 +533,9 @@
                                                  data-splitin="none"
                                                  data-splitout="none"
                                                  data-responsive_offset="on">
-                                                We provide top-notch service for import and domestic car repairs.
-                                                Servicing Brakes,<br> Exhaust, Tune Ups, Engine Repairs, Electrical and
-                                                A.C Systems.
-                                            </div>
+                                                such as Bicycles, Bikes, Cars, Buses,Vans,Trucks & OTRVehicles.<br>Provides enhanced puncture protection over the Road Product & Keep the tyre
+                                                cool.
+                                            </div>-->
 
                                             <div class="tp-caption text-right"
                                                  data-x="['center','center','center','center']"
@@ -761,12 +688,13 @@
                                 <div class="container-fluid">
                                     <div class="row equalize sm-equalize-auto">
                                         <div class="col-md-6 half-background style-1">
-                                            <div class="wprt-icon style-1 clearfix background">
+                                            <!--<div class="wprt-icon style-1 clearfix background">
                                                 <a class="icon-wrap popup-video"
-                                                   href="https://www.youtube.com/watch?v=-iN4ebYdsc4">
+                                                   href="https://www.youtube.com/watch?v=tV5J9trHR2I&feature=youtu.be">
                                                     <span class="icon"><i class="rt-icon-play-arrow"></i></span>
                                                 </a>
-                                            </div><!-- /.wprt-icon -->
+                                            </div>-->
+                                            <iframe width="750" height="510" src="https://www.youtube.com/embed/tV5J9trHR2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div><!-- /.col-md-6 -->
 
                                         <div class="col-md-6">
@@ -989,14 +917,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-1-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-1.JPG"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-1-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-1-full.jpg"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">TUNE-UPS SYSTEM</a></h2>
@@ -1009,14 +937,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-2-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-2.jpg"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-2-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-2-full.JPG"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">ENGINE OIL CHANGE</a></h2>
@@ -1029,14 +957,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-3-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-3.jpg"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-3-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-3-full.JPG"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">CHECKING CAR ENGINE</a>
@@ -1050,14 +978,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-4-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-4.JPG"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-4-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-4-full.jpg"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">AIR CONDITIONING</a></h2>
@@ -1070,14 +998,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-5-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-5.jpg"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-5-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-5-full.JPG"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">WHEEL ALIGNMENT</a></h2>
@@ -1090,14 +1018,14 @@
                                                         <div class="inner">
                                                             <div class="hover-effect">
                                                                 <div class="gallery-image">
-                                                                    <img src="assets/img/works/work-6-640x640.jpg"
+                                                                    <img src="assets/img/works/ts/img-6.jpg"
                                                                          alt="Image">
                                                                 </div>
 
                                                                 <div class="text">
                                                                     <div class="icon">
                                                                         <a class="zoom-popup"
-                                                                           href="assets/img/works/work-6-full.jpg"><i
+                                                                           href="assets/img/works/ts/img-6-full.JPG"><i
                                                                                     class="rt-icon-zoom-in-2"></i></a>
                                                                     </div>
                                                                     <h2><a href="#" title="#">CAR MAINTENANCE</a></h2>
@@ -1418,147 +1346,8 @@
                             <!-- END TESTIMONIALS -->
 
                             <!-- PARTNERS -->
-                            <div class="row-partner">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="wprt-spacer clearfix" data-desktop="60" data-mobi="40"
-                                                 data-smobi="30"></div>
-
-                                            <div class="wprt-partner style-1 arrow-center offset30 offset-v0 has-arrows"
-                                                 data-auto="false" data-loop="false" data-column="5" data-column2="3"
-                                                 data-column3="2" data-gap="60">
-                                                <div class="owl-carousel owl-theme">
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-1.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-2.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-3.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-4.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-5.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-6.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-7.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="partner-item clearfix">
-                                                        <div class="inner">
-                                                            <a target="_blank" href="#">
-                                                                <div class="thumb">
-                                                                    <img src="assets/img/partners/logo-8.png"
-                                                                         alt="Image">
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><!-- /.wprt-partner -->
-
-                                            <div class="wprt-spacer clearfix" data-desktop="60" data-mobi="40"
-                                                 data-smobi="30"></div>
-                                        </div><!-- /.col-md-12 -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.container -->
-                            </div>
                             <!-- END PARTNERS -->
-
                             <!-- PROMOTION -->
-                            <div class="row-promotion bg-accent">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="wprt-spacer clearfix" data-desktop="25" data-mobi="35"
-                                                 data-smobi="37"></div>
-
-                                            <div class="wprt-action-box style-1 has-icon">
-                                                <div class="inner">
-                                                    <div class="heading-wrap">
-                                                        <div class="text-wrap">
-                                                            <h3 class="heading">
-                                                                We Are Here To Help With Your Transportation All Repair
-                                                                Needs
-                                                            </h3>
-                                                            <span class="icon"><i
-                                                                        class="as-icon-speedometer2"></i></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="button-wrap">
-                                                        <a href="#" class="wprt-button white">BOOK YOUR MOD</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="wprt-spacer clearfix" data-desktop="25" data-mobi="35"
-                                                 data-smobi="37"></div>
-                                        </div><!-- /.col-md-12 -->
-                                    </div><!-- /.row -->
-                                </div><!-- /.container -->
-                            </div>
                             <!-- END PROMOTION -->
                         </div><!-- /.page-content -->
                     </div><!-- /#inner-content -->
@@ -1574,10 +1363,10 @@
                         <div class="widget widget_text">
                             <div class="textwidget">
                                 <p class="margin-bottom-25">
-                                    <img src="assets/img/logo-white%402x.png" width="202" height="52" alt="Image">
+                                    <img src="assets/img/ts-logo-landscape-white.png" width="202" height="52" alt="Image">
                                 </p>
-                                <p>We know that honesty and transparency, coupled with reliable and friendly customer
-                                    service, is what really builds customer trust.</p>
+                                <p>TYREOSHEILD is a unique blend of Chemicals i.e., Ethylene Glycol for Tube Tires
+                                    and Propylene Glycol for Tubeless Tires, which includes SMan Made Fibers.</p>
                             </div>
                         </div><!-- /.widget_text -->
 
@@ -1585,12 +1374,7 @@
                             <div class="socials clearfix">
                                 <div class="icon"><a class="active" target="_blank" href="#"><i
                                                 class="rt-icon-facebook"></i></a></div>
-                                <div class="icon"><a target="_blank" href="#"><i class="rt-icon-twitter"></i></a></div>
-                                <div class="icon"><a target="_blank" href="#"><i class="rt-icon-pinterest"></i></a>
-                                </div>
-                                <div class="icon"><a target="_blank" href="#"><i class="rt-icon-linkedin"></i></a></div>
-                                <div class="icon"><a target="_blank" href="#"><i class="rt-icon-instagram"></i></a>
-                                </div>
+                                <div class="icon"><a target="_blank" href="#"><i class="rt-icon-instagram"></i></a></div>
                             </div>
                         </div><!-- /.widget_socials -->
                     </div><!-- /.span_1_of_4 -->
@@ -1680,25 +1464,19 @@
                                 <li class="address clearfix">
                                     <div class="inner">
                                         <span class="hl">Address:</span>
-                                        <span class="text">1379 Shoreline Parkway, Mountain View, CA 94043, United States.</span>
+                                        <span class="text"> Kalpatharu Garden, 353-A,VediyapanurRoad, Adiannamalai,Tiruvannama1ai —606 604,Tamilnadu, India.</span>
                                     </div>
                                 </li>
                                 <li class="phone clearfix">
                                     <div class="inner">
                                         <span class="hl">Phone:</span>
-                                        <span class="text">+1 718-999-3939</span>
+                                        <span class="text">+1 99798-86825</span>
                                     </div>
                                 </li>
                                 <li class="email clearfix">
                                     <div class="inner">
                                         <span class="hl">E-mail:</span>
                                         <span class="text">contact@autoservice.com</span>
-                                    </div>
-                                </li>
-                                <li class="email clearfix">
-                                    <div class="inner">
-                                        <span class="hl">Skype:</span>
-                                        <span class="text">help@autoservice.com</span>
                                     </div>
                                 </li>
                             </ul>
@@ -1714,7 +1492,7 @@
                 <div class="bottom-bar-inner-wrap">
                     <div class="bottom-bar-content">
                         <div id="copyright">
-                            &copy; AutoService - Design by @DoanDu with Love. All Rights Reserved.
+                            &copy; Tyreoshield - Design by <a href="http://viveksoni100.co.in" target="_blank">@Vivek Soni.</a> All Rights Reserved.
                         </div><!-- /#copyright -->
                     </div><!-- /.bottom-bar-content -->
 

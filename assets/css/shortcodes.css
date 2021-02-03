@@ -17,8 +17,8 @@
 /* Columns
 -------------------------------------------------------------- */
 /* Style 1 */
-.half-background.style-1 { background-image:url('../img/bg-why-1.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }
-.half-background.style-2 { background-image:url('../img/bg-why-2.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }
+/*.half-background.style-1 { background-image:url('../img/bg-why-1.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }*/
+/*.half-background.style-2 { background-image:url('../img/bg-why-2.jpg'); background-size: cover; overflow: hidden; background-position: center; background-repeat: no-repeat; }*/
 @media only screen and (max-width: 991px) {
 	.half-background.style-1 { height: 450px; }
 	.half-background.style-2 { height: 450px; }
