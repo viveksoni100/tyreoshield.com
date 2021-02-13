@@ -1129,7 +1129,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #sidebar .widget.widget_links ul li,
 #footer-widgets .widget.widget_links ul li { border: 0; margin-bottom: 3px; }
 #sidebar .widget.widget_links ul.col2 li,
-#footer-widgets .widget.widget_links ul.col2 li { width: 50%; float: left; padding: 0; }
+#footer-widgets .widget.widget_links ul.col2 li { width: 100% padding: 0; }
 #sidebar .widget.widget_links ul li a,
 #footer-widgets .widget.widget_links ul li a { position: relative; display: inline-block; padding-left: 22px; color: #777; }
 #sidebar .widget.widget_links ul li i,
