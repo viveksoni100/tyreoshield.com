@@ -569,7 +569,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 #top-bar .top-bar-content .content.welcome:before { content: "\e934"; }
 #top-bar .top-bar-content .content.time:before { content: "\e823"; }
 #top-bar .top-bar-content .content.phone:before { content: "\e843"; }
-#top-bar .top-bar-content .content.address:before { content: "\e92f"; }
+#top-bar .top-bar-content .content.address:before { content: "\e906"; }
 
 /* Top Bar Socials */
 #top-bar .top-bar-socials .icons a { position: relative; z-index: 1; font-size: 13px; color: #c3c3c3; background-color: #fff; border-radius: 14px; width: 28px; height: 28px; margin-left: 2px; line-height: 28px; text-align: center; display: inline-block; }
