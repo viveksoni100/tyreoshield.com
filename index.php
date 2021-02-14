@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/lightweightpopup.css">
+
     <link rel="shortcut icon" href="assets/icon/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/apple-touch-icon-158-precomposed.png">
 
@@ -62,7 +64,9 @@
 
                             <div id="header-aside">
                                 <div class="header-aside-btn">
-                                    <a href="#"><span>Make an inquiry</span></a>
+                                    <!--<a href="#"><span>Make an inquiry</span></a>-->
+                                    <a href="javascript:;" id="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Make an inquiry</span></a>
+
                                 </div>
 
                                 <div class="header-info">
@@ -79,7 +83,7 @@
 
                             <div class="aside-links">
                                 <ul>
-                                    <li><a href="https://wa.me/message/IPO5FFW5R54EE1" id="whatsAppButt"><img src="assets/img/whatsapp-logo.png" alt="whatsapp-logo"></a></li>
+                                    <li><a target="_blank" href="https://wa.me/message/IPO5FFW5R54EE1" id="whatsAppButt"><img src="assets/img/whatsapp-logo.png" alt="whatsapp-logo"></a></li>
                                 </ul>
                             </div>
 
@@ -788,7 +792,11 @@
         <a id="scroll-top"></a>
 
         <!-- Javascript -->
-        <script src="assets/js/jquery.min.js"></script>
+
+        <!--popup js-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="assets/js/lightWeightPopup.js"></script>
+        <!--<script src="assets/js/jquery.min.js"></script>-->
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/animsition.js"></script>
@@ -814,6 +822,17 @@
         <script src="includes/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
         <script src="includes/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script src="includes/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+
+        <script>
+            $(document).ready(function(e) {
+                $("#ancher").lightWeightPopup({
+                    width: "95%",
+                    maxWidth: "320px",
+                    title: "Ajax Model"
+                });
+            });
+
+        </script>
 
 </body>
 
