@@ -62,20 +62,27 @@
 
                             <div id="header-aside">
                                 <div class="header-aside-btn">
-                                    <a target="_blank" href="#"><span>Make an appointment</span></a>
+                                    <a href="#"><span>Make an inquiry</span></a>
                                 </div>
 
                                 <div class="header-info">
                                     <div class="inner">
                                         <div class="info-one">
                                             <div class="info-wrap">
-                                                <div class="info-i"><span><i class="rt-icon-telephone"></i></span></div>
-                                                <div class="info-c"><span class="title">+91 99798-86825</span><br><span class="subtitle">Tusharbhai &lt;Surname&gt;</span></div>
+                                                <div class="info-i"><span><i class="rt-icon-message"></i></span></div>
+                                                <div class="info-c"><span class="title"><a href="mailto:info.tyreoshield@gmail.com">info.tyreoshield@gmail.com</a></span></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div><!-- /#header-aside -->
+
+                            <div class="aside-links">
+                                <ul>
+                                    <li><a href="https://wa.me/message/IPO5FFW5R54EE1" id="whatsAppButt"><img src="assets/img/whatsapp-logo.png" alt="whatsapp-logo"></a></li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div><!-- /#site-header-inner -->
 
@@ -85,7 +92,7 @@
                                 <ul id="menu-primary-menu" class="menu">
                                     <li class="menu-item"><a href="page-blog.html">Product facts and Attributes</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">Gallery</a></li>
-                                    <li class="menu-item"><a href="page-appointment.html">Contact us</a></li>
+                                    <li class="menu-item"><a href="#">Contact us</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">About us</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">F A Q</a></li>
                                 </ul>

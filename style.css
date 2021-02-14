@@ -509,6 +509,35 @@ h6 a { color: inherit }
 .wprt-row.gutter-80 { margin-left: -40px; margin-right: -40px; }
 .wprt-row.gutter-80 > .col { padding-left: 40px; padding-right: 40px;}
 
+/*Whatsapp fixed api*/
+.aside-links {
+    position: fixed;
+    top: 6rem;
+    right: 0;
+    height: 10rem;
+    background: #1c63b8;
+    border-radius: 10px 0 0 10px;
+    padding: 0px 0px;
+    z-index: 9999;
+}
+.aside-links ul {
+    display: inline;
+}
+.aside-links ul li {
+    list-style: none;
+    padding: 0;
+}
+.aside-links ul li a {
+    padding: 5px 10px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+.aside-links ul li a img {
+    width: 100%;
+}
+
+
 /* Custom Bootstrap Gutter */
 .row.no-gutters { margin-right: 0; margin-left: 0; }
 .row.no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
