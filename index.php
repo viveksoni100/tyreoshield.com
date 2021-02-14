@@ -30,7 +30,7 @@
                     <div id="top-bar-inner" class="wprt-container">
                         <div class="top-bar-inner-wrap">
                             <div class="top-bar-content">
-                                <span class="address content" style="cursor: pointer;"><a style="text-decoration: none;">View our presentation</a></span>
+                                <span class="address content" style="cursor: pointer;"><a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax" style="text-decoration: none;">View our presentation</a></span>
                             </div><!-- /.top-bar-content -->
 
                             <div class="top-bar-socials">
@@ -65,7 +65,7 @@
                             <div id="header-aside">
                                 <div class="header-aside-btn">
                                     <!--<a href="#"><span>Make an inquiry</span></a>-->
-                                    <a href="javascript:;" id="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Make an inquiry</span></a>
+                                    <a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Make an inquiry</span></a>
 
                                 </div>
 
@@ -96,7 +96,7 @@
                                 <ul id="menu-primary-menu" class="menu">
                                     <li class="menu-item"><a href="page-blog.html">Product facts and Attributes</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">Gallery</a></li>
-                                    <li class="menu-item"><a href="#">Contact us</a></li>
+                                    <li class="menu-item"><a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax">Contact us</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">About us</a></li>
                                     <li class="menu-item"><a href="page-appointment.html">F A Q</a></li>
                                 </ul>
@@ -825,10 +825,10 @@
 
         <script>
             $(document).ready(function(e) {
-                $("#ancher").lightWeightPopup({
+                $(".ancher").lightWeightPopup({
                     width: "95%",
                     maxWidth: "320px",
-                    title: "Ajax Model"
+                    title: "Inquiry Form"
                 });
             });
 
