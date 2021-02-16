@@ -125,11 +125,11 @@
                                             <!-- Slide 1 -->
                                             <li data-transition="random">
                                                 <!-- Main Image -->
-                                                <img src="assets/img/slider/slider-bg-1.jpg" alt="" data-bgposition="center center" data-no-retina>
+                                                <img src="assets/img/slider/slider-bg-1-new.jpg" alt="" data-bgposition="center center" data-no-retina>
 
                                                 <!-- Layers -->
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-400" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-125','-165']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                                                    TYREOSHEILD
+                                                    TYREOSHEILD™
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700" data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-62','-62','-62','-67']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
@@ -142,11 +142,11 @@
                                             <!-- Slide 2 -->
                                             <li data-transition="random">
                                                 <!-- Main Image -->
-                                                <img src="assets/img/slider/slider-bg-2.jpg" alt="" data-bgposition="center center" data-no-retina>
+                                                <img src="assets/img/slider/slider-bg-2-new.jpg" alt="" data-bgposition="center center" data-no-retina>
 
                                                 <!-- Layers -->
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-400 text-center" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-125','-165']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                                                    TYREOSHEILD
+                                                    TYREOSHEILD™
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-center" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-62','-62','-62','-67']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
@@ -166,11 +166,11 @@
                                             <!-- Slide 3 -->
                                             <li data-transition="random">
                                                 <!-- Main Image -->
-                                                <img src="assets/img/slider/slider-bg-3.jpg" alt="" data-bgposition="center center" data-no-retina>
+                                                <img src="assets/img/slider/slider-bg-3-new.jpg" alt="" data-bgposition="center center" data-no-retina>
 
                                                 <!-- Layers -->
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-400 text-right" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-130','-130','-125','-165']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="700" data-splitin="none" data-splitout="none" data-responsive_offset="on">
-                                                    TYREOSHEILD designed for use
+                                                    TYREOSHEILD™ designed for use
                                                 </div>
 
                                                 <div class="tp-caption tp-resizeme text-white font-heading font-weight-700 text-right" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-62','-62','-62','-67']" data-fontsize="['54','54','50','38']" data-lineheight="['64','64','60','48']" data-width="full" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on">
@@ -654,7 +654,7 @@
                                         <p class="margin-bottom-25">
                                             <img src="assets/img/ts-logo-landscape-white.png" width="202" height="52" alt="Image">
                                         </p>
-                                        <p>TYREOSHEILD is a unique blend of Chemicals that will bestow you puncture free journey.</p>
+                                        <p>TYREOSHEILD™ is a unique blend of Chemicals that will bestow you puncture free journey.</p>
                                     </div>
                                 </div><!-- /.widget_text -->
 
@@ -680,7 +680,7 @@
                                 </div><!-- /.widget_links -->
                             </div><!-- /.span_1_of_4 -->
 
-                            <div class="span_1_of_4 col">
+                            <!--<div class="span_1_of_4 col">
                                 <div class="widget widget_instagram">
                                     <h2 class="widget-title"><span>Instagram Feed</span></h2>
 
@@ -732,11 +732,11 @@
                                                 </div>
                                             </a>
                                         </div>
-                                    </div><!-- /.instagram-wrap -->
-                                </div><!-- /.widget_instagram -->
-                            </div><!-- /.span_1_of_4 -->
+                                    </div>
+                                </div>
+                            </div>-->
 
-                            <div class="span_1_of_4 col">
+                            <!--<div class="span_1_of_4 col">
                                 <div class="widget widget_information">
                                     <h2 class="widget-title"><span>CONTACT INFO</span></h2>
 
@@ -760,8 +760,9 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </div><!-- /.widget_information -->
-                            </div><!-- /.span_1_of_4 -->
+                                </div>
+                            </div>-->
+                            
                         </div><!-- /.wprt-row -->
                     </div><!-- /#footer-widgets -->
                 </footer><!-- /#footer -->
