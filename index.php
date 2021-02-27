@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Homepage</title>
-    <meta name="description" content="AutoService is a responsive Template best suitable for mechanic auto shop, car repair, auto mechanic, car service, auto repair shop, mechanic workshop, auto service, automotive, batteries, tire or wheel shop.">
-    <meta name="keywords" content="car repair, auto service, car service, automotive, mechanic auto shop, automotive, mechanic workshop">
-    <meta name="author" content="https://themeforest.net/user/blogwp/portfolio">
+    <meta name="description" content="The complete Tyre care system. Makes journey Unstoppable.">
+    <meta name="keywords" content="tyre care system, puncture free tyre">
+    <meta name="author" content="">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
