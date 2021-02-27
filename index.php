@@ -93,11 +93,11 @@
                         <div class="wprt-container inner">
                             <nav id="main-nav" class="main-nav">
                                 <ul id="menu-primary-menu" class="menu">
-                                    <li class="menu-item"><a href="page-blog.html">Product facts and Attributes</a></li>
-                                    <li class="menu-item"><a href="page-appointment.html">Gallery</a></li>
+                                    <li class="menu-item"><a href="#">Product facts and Attributes</a></li>
+                                    <li class="menu-item"><a href="#">Gallery</a></li>
                                     <li class="menu-item"><a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax">Contact us</a></li>
-                                    <li class="menu-item"><a href="page-appointment.html">About us</a></li>
-                                    <li class="menu-item"><a href="page-appointment.html">F A Q</a></li>
+                                    <li class="menu-item"><a href="#">About us</a></li>
+                                    <li class="menu-item"><a href="#">F A Q</a></li>
                                 </ul>
                             </nav><!-- /#main-nav -->
 
@@ -206,10 +206,17 @@
                                             <div class="row equalize sm-equalize-auto">
                                                 <div class="col-md-12">
                                                     <center>
-                                                        <iframe width="1200" height="510" src="https://www.youtube.com/embed/tV5J9trHR2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                        <div class="col-md-4">
+                                                            <iframe width="425" height="300" src="https://www.youtube.com/embed/IP7gBhz0PoY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <iframe width="425" height="300" src="https://www.youtube.com/embed/NiZpVik0Qf4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <iframe width="425" height="300" src="https://www.youtube.com/embed/RvCmBMz_O7w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                                                        </div>
                                                     </center>
-                                                </div><!-- /.col-md-6 -->
-
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -248,22 +255,6 @@
 
                                                     <div class="wprt-gallery has-arrows arrow-center offsetcenter offset-v0" data-auto="false" data-column="3" data-column2="2" data-column3="1" data-gap="20">
                                                         <div class="owl-carousel owl-theme">
-                                                            <div class="gallery-box">
-                                                                <div class="inner">
-                                                                    <div class="hover-effect">
-                                                                        <div class="gallery-image">
-                                                                            <img src="assets/img/works/ts/img-1.JPG" alt="Image">
-                                                                        </div>
-
-                                                                        <div class="text">
-                                                                            <div class="icon">
-                                                                                <a class="zoom-popup" href="assets/img/works/ts/img-1.jpg"><i class="rt-icon-zoom-in-2"></i></a>
-                                                                            </div>
-                                                                            <h2><a href="#" title="#"></a></h2>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div><!-- /.gallery-box -->
 
                                                             <div class="gallery-box">
                                                                 <div class="inner">
@@ -295,23 +286,6 @@
                                                                             </div>
                                                                             <h2><a href="#" title="#"></a>
                                                                             </h2>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div><!-- /.gallery-box -->
-
-                                                            <div class="gallery-box">
-                                                                <div class="inner">
-                                                                    <div class="hover-effect">
-                                                                        <div class="gallery-image">
-                                                                            <img src="assets/img/works/ts/img-4.JPG" alt="Image">
-                                                                        </div>
-
-                                                                        <div class="text">
-                                                                            <div class="icon">
-                                                                                <a class="zoom-popup" href="assets/img/works/ts/img-4.jpg"><i class="rt-icon-zoom-in-2"></i></a>
-                                                                            </div>
-                                                                            <h2><a href="#" title="#"></a></h2>
                                                                         </div>
                                                                     </div>
                                                                 </div>
