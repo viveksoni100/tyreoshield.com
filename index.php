@@ -747,7 +747,7 @@
                         <div class="bottom-bar-inner-wrap">
                             <div class="bottom-bar-content">
                                 <div id="copyright">
-                                    &copy; Tyreoshield - Design by <a href="http://viveksoni100.co.in" target="_blank">@Vivek Soni.</a> All Rights Reserved.
+                                    &copy; Tyreoshield - Design by <a href="http://viveksoni100.co.in" target="_blank">@Vivek Soni.</a>
                                 </div><!-- /#copyright -->
                             </div><!-- /.bottom-bar-content -->
 
