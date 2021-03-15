@@ -64,7 +64,7 @@
                             <div id="header-aside">
                                 <div class="header-aside-btn">
                                     <!--<a href="#"><span>Make an inquiry</span></a>-->
-                                    <a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Make an inquiry</span></a>
+                                    <a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Get Quote</span></a>
 
                                 </div>
 
@@ -72,8 +72,7 @@
                                     <div class="inner">
                                         <div class="info-one">
                                             <div class="info-wrap">
-                                                <div class="info-i"><span><i class="rt-icon-message"></i></span></div>
-                                                <div class="info-c"><span class="title"><a href="mailto:info.tyreoshield@gmail.com">info.tyreoshield@gmail.com</a></span></div>
+                                                <div class="info-c"><span class="title">Get service for Installing TYREOSHIELD in your car at your door step now</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -94,19 +93,12 @@
                             <nav id="main-nav" class="main-nav">
                                 <ul id="menu-primary-menu" class="menu">
                                     <li class="menu-item"><a href="#">Product facts and Attributes</a></li>
-                                    <li class="menu-item"><a href="#">Gallery</a></li>
-                                    <li class="menu-item"><a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax">Contact us</a></li>
+                                    <li class="menu-item"><a href="#rowGallery">Gallery</a></li>
+                                    <li class="menu-item"><a href="#footer-widgets">Contact us</a></li>
                                     <li class="menu-item"><a href="#">About us</a></li>
                                     <li class="menu-item"><a href="#">F A Q</a></li>
                                 </ul>
                             </nav><!-- /#main-nav -->
-
-                            <ul class="nav-extend active">
-                                <li class="ext c">
-                                    <a class="cart-info" href="#" title="View your shopping cart">6 items <span class="woocommerce-Price-amount amount">
-                                            <span class="woocommerce-Price-currencySymbol">$</span>260.00</span></a>
-                                </li>
-                            </ul><!-- /.nav-extend -->
                         </div>
                     </div><!-- /.site-navigation-wrap -->
                 </header><!-- /#site-header -->
@@ -240,7 +232,7 @@
                                     <!-- END FACTS 1 -->
 
                                     <!-- GALLERY -->
-                                    <div class="row-gallery">
+                                    <div class="row-gallery" id="rowGallery">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12">
@@ -630,6 +622,8 @@
                                             <img src="assets/img/ts-logo-landscape-white.png" width="202" height="52" alt="Image">
                                         </p>
                                         <p>TYREOSHEILD™ is a unique blend of Chemicals that will bestow you puncture free journey.</p>
+                                        <p>email : info-tyreoshield@gmail.com<br>
+                                            phone : 99798 86825</p>
                                     </div>
                                 </div><!-- /.widget_text -->
 
@@ -720,7 +714,7 @@
                 $(".ancher").lightWeightPopup({
                     width: "95%",
                     maxWidth: "320px",
-                    title: "Inquiry Form"
+                    title: "Retail inquiry form"
                 });
             });
             $(document).ready(function(e) {
