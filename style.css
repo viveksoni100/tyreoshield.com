@@ -5085,9 +5085,12 @@ body.page #main-content {
     }
 
     #top-bar .top-bar-socials {
-        display: none;
-        width: 100%;
-        text-align: center;
+        display: block;
+        width: 80%;
+        text-align: right;
+        position: absolute;
+        top: 10%;
+        right: 2%;
     }
 
     #featured-title .featured-title-inner-wrap,
@@ -5187,8 +5190,15 @@ body.page #main-content {
         visibility: inherit;
         z-index: 20;
     }
-    
-    .aside-links ul {
-        display: none;
+
+    .aside-links {
+        position: fixed;
+        top: 47rem;
+        right: 0;
+        height: 10rem;
+        background: #1c63b8;
+        border-radius: 10px 0 0 10px;
+        padding: 0px 0px;
+        z-index: 9999;
     }
 }

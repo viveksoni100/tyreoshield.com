@@ -30,7 +30,7 @@
                     <div id="top-bar-inner" class="wprt-container">
                         <div class="top-bar-inner-wrap">
                             <div class="top-bar-content">
-                                <span class="address content" style="cursor: pointer;"><a href="javascript:;" class="ancher-pf" data-href="assets/html/presentation-form.html" data-content="ajax" style="text-decoration: none;">View our presentation</a></span>
+                                <span class="address content" style="cursor: pointer;"><a href="javascript:;" class="ancher-pf" data-href="assets/html/presentation-form.html" data-content="ajax" style="text-decoration: none; font-weight: bolder; color: #1c63b8">View our presentation</a></span>
                             </div>
 
                             <div class="top-bar-socials">
@@ -134,7 +134,7 @@
                                             <!-- Slide 2 -->
                                             <li data-transition="random">
                                                 <!-- Main Image -->
-                                            
+
                                                 <div class="tp-bgimg defaultimg banner-img-2"></div>
 
                                                 <!-- Layers -->
@@ -622,7 +622,7 @@
                                             <img src="assets/img/ts-logo-landscape-white.png" width="202" height="52" alt="Image">
                                         </p>
                                         <p>TYREOSHEILD™ is a unique blend of Chemicals that will bestow you puncture free journey.</p>
-                                        <p>email : info-tyreoshield@gmail.com<br>
+                                        <p>email : info.tyreoshield@gmail.com<br>
                                             phone : 99798 86825</p>
                                     </div>
                                 </div><!-- /.widget_text -->
