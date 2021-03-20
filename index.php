@@ -724,7 +724,6 @@
                     title: "Inquiry Form for viewing presentation"
                 });
             });
-
         </script>
 
 </body>
