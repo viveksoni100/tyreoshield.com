@@ -17,15 +17,28 @@ $lastname = mysqli_real_escape_string($conn, $_REQUEST['lastName']);
 $email = mysqli_real_escape_string($conn, $_REQUEST['email']);
 $mobile = mysqli_real_escape_string($conn, $_REQUEST['mobile']);
 
-$sql = "INSERT INTO presentation_view_table (first_name, last_name, email, mobile_no)
-VALUES ('$firstname', '$lastname', '$email', '$mobile')";
+$randomOtp = generateRandomOTP();
+
+$sql = "INSERT INTO presentation_view_table (first_name, last_name, email, mobile_no, otp)
+VALUES ('$firstname', '$lastname', '$email', '$mobile', '$randomOtp')";
 
 if ($conn->query($sql) === TRUE) {
-    header("Location: https://drive.google.com/file/d/1rTRPF4rl4IV29wpaymbAJYVkdwSP908q/view");
+    header("Location: ../assets/html/otp/index.html?mobile-no=".$mobile);
     $conn->close();
     exit();
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
     $conn->close();
 }
+
+function generateRandomOTP() : string {
+    $characters = '0123456789';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < 4; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+
 ?>
