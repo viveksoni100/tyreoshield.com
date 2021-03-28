@@ -81,7 +81,7 @@
 
                             <div class="aside-links">
                                 <ul>
-                                    <li><a target="_blank" href="https://wa.me/message/IPO5FFW5R54EE1" id="whatsAppButt"><img src="assets/img/whatsapp-logo.png" alt="whatsapp-logo"></a></li>
+                                    <li><a target="_blank" href="https://wa.me/919979886825" id="whatsAppButt"><img src="assets/img/whatsapp-logo.png" alt="whatsapp-logo"></a></li>
                                 </ul>
                             </div>
 
