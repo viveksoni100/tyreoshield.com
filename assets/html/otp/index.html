@@ -16,6 +16,7 @@
             <div class="title">
               Enter otp sent to : <br/>
                 <label id="lbl-mobile"></label>
+                <label style="color: red; display: none;" id="wrong-otp">Please enter valid OTP!</label>
             </div>
             
             <form method="post" action="../../../php/verify-otp-view-presentation.php" class="mt-5">
@@ -39,9 +40,14 @@
         $(document).ready(function(){
             const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
-            const monileNo = urlParams.get('mobile-no')
+            const monileNo = urlParams.get('mobile-no');
+            const wrongOTP = urlParams.get('otp-input-flag');
             document.getElementById("lbl-mobile").innerHTML = monileNo;
             document.getElementById("mobile").value = monileNo;
+            if(wrongOTP === 'wrong') {
+                console.log("Fuck!");
+                document.getElementById("wrong-otp").style.display = "block";
+            }
         });
     </script>
 </body>

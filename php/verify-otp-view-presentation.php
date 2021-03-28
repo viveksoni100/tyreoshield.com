@@ -29,7 +29,7 @@ if ($result = mysqli_query($conn, $sql)) {
     if(verifyOtp($inputOtp, $sentOtp)) {
         header("Location: https://drive.google.com/file/d/1rTRPF4rl4IV29wpaymbAJYVkdwSP908q/view");
     } else { 
-        header("Location: ./assets/html/otp/index.html?mobile-no=".$mobile."&otp-input-flag=wrong");
+        header("Location: ../assets/html/otp/index.html?mobile-no=".$mobile."&otp-input-flag=wrong");
     }
     $conn->close();
     exit();
