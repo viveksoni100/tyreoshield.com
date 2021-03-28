@@ -2772,7 +2772,8 @@ body.page #main-content {
 
 #site-header .header-aside-btn a {
     border: 3px solid #f0f0f0;
-    color: #777;
+    color: #1c63b8;
+    font-weight: bolder;
 }
 
 /* Header full-width */
