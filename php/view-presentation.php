@@ -31,11 +31,11 @@ $randomOtp = generateRandomOTP();
 }*/
 
 // for email
-if(sendAnEmailToAdmin($firstname, $lastname, $email, $mobile, $randomOtp, $conn)) {
+if(sendAnEmailToAdmin($firstname, $lastname, $email, $mobile, $randomOtp)) {
     doEntryOfOTPInDb($firstname, $lastname, $email, $mobile, $randomOtp, $conn);
 }
 
-function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, string $mobile, string $randomOtp, object $conn) : bool {
+function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, string $mobile, string $randomOtp) : bool {
     $emailSent = false;
     
     //Create a new PHPMailer instance
@@ -53,7 +53,7 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, 
     $mail->addAddress('viveksoni100@gmail.com', 'Tusharbhai');
     //Set the subject line
     $mail->Subject = "Presentation downloaded by ".$mobile." ("."$email".")";
-    $mail->Body = "<h3> View our presentation </h3><br/>"."Name : ".$firstname." ".$lastname."<br/>"."Email : ".$email."<br/>"."Mobile no : ".$mobile."<br/>";
+    $mail->Body = "<h3> View our presentation </h3><br/>"."<b>Name : </b>".$firstname." ".$lastname."<br/>"."<b>Email : </b>".$email."<br/>"."<b>Mobile no : </b>".$mobile."<br/>";
     /*$mail->Body = getBody($firstname, $lastname, $email, $mobile);*/
     $mail->AltBody = 'This is a plain-text message body';
 
