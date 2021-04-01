@@ -30,6 +30,7 @@ $randomOtp = generateRandomOTP();
     doEntryOfOTPInDb($firstname, $lastname, $email, $mobile, $randomOtp, $conn);
 }*/
 
+// for email
 if(sendAnEmailToAdmin($firstname, $lastname, $email, $mobile, $randomOtp, $conn)) {
     doEntryOfOTPInDb($firstname, $lastname, $email, $mobile, $randomOtp, $conn);
 }
@@ -39,40 +40,26 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, 
     
     //Create a new PHPMailer instance
     $mail = new PHPMailer();
-    //Tell PHPMailer to use SMTP
     $mail->isSMTP();
-    //Enable SMTP debugging
-    //SMTP::DEBUG_OFF = off (for production use)
-    //SMTP::DEBUG_CLIENT = client messages
-    //SMTP::DEBUG_SERVER = client and server messages
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
-    //Set the hostname of the mail server
+    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->SMTPAuth = true;
     $mail->Username = 'tyreoshield.inquiry@gmail.com';
     $mail->Password = 'Admin@123';
-    $mail->setFrom('vivek.fullstack.dev@gmail.com', 'Vivek Soni');
-    //Set an alternative reply-to address
-    //$mail->addReplyTo('replyto@example.com', 'First Last');
-    //Set who the message is to be sent to
-    $mail->addAddress('viveksoni100@gmail.com', 'Vivekbhai');
+    $mail->setFrom('vivek.fullstack.dev@gmail.com', 'Administrator');
+    
+    $mail->addAddress('viveksoni100@gmail.com', 'Tusharbhai');
     //Set the subject line
-    $mail->Subject = 'PHPMailer GMail SMTP test';
-    //Read an HTML message body from an external file, convert referenced images to embedded,
-    //convert HTML into a basic plain-text alternative body
-    //$mail->msgHTML(file_get_contents('contents.html'), __DIR__);
-    //Replace the plain text body with one created manually
-    $mail->Body = 'This is a plain-text message body';
+    $mail->Subject = "Presentation downloaded by ".$mobile." ("."$email".")";
+    $mail->Body = "<h3> View our presentation </h3><br/>"."Name : ".$firstname." ".$lastname."<br/>"."Email : ".$email."<br/>"."Mobile no : ".$mobile."<br/>";
+    /*$mail->Body = getBody($firstname, $lastname, $email, $mobile);*/
     $mail->AltBody = 'This is a plain-text message body';
-    //Attach an image file
-    //$mail->addAttachment('images/phpmailer_mini.png');
-    //send the message, check for errors
+
     if (!$mail->send()) {
         echo 'Mailer Error: ' . $mail->ErrorInfo;
     } else {
-        echo 'Message sent!';
         $emailSent = true;
     }
     return $emailSent;
@@ -85,6 +72,7 @@ function doEntryOfOTPInDb(string $firstname, string $lastname, string $email, st
     if ($conn->query($sql) === TRUE) {
         //for opt SMS
         //header("Location: ../assets/html/otp/index.html?mobile-no=".$mobile);
+        //for email
         header("Location: https://drive.google.com/file/d/1rTRPF4rl4IV29wpaymbAJYVkdwSP908q/view");
         $conn->close();
         exit();
