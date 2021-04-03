@@ -9,15 +9,15 @@ function getServernameForDBConnection() {
 }
 
 function getUsernameForDBConnection() {
-    return "root";
+    return "u788476771_vivek";
 }
 
 function getPasswordForDBConnection() {
-    return "";
+    return "Vivek@123";
 }
 
 function getDBNameForDBConnection() {
-    return "tyreosdb";
+    return "u788476771_tyreosdb";
 }
 
 ?>
