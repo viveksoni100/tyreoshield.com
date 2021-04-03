@@ -4,11 +4,12 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 require '../vendor/autoload.php';
+require_once '../constants.php';
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "tyreosdb";
+$servername = getServernameForDBConnection();
+$username = getUsernameForDBConnection();
+$password = getPasswordForDBConnection();
+$dbname = getDBNameForDBConnection();
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -50,7 +51,7 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, 
     $mail->Password = 'Admin@123';
     $mail->setFrom('vivek.fullstack.dev@gmail.com', 'Administrator');
     
-    $mail->addAddress('viveksoni100@gmail.com', 'Tusharbhai');
+    $mail->addAddress(getTyreOShieldInfoMailId(), 'Tusharbhai');
     //Set the subject line
     $mail->Subject = "Presentation downloaded by ".$mobile." ("."$email".")";
     $mail->Body = "<h3> View our presentation </h3><br/>"."<b>Name : </b>".$firstname." ".$lastname."<br/>"."<b>Email : </b>".$email."<br/>"."<b>Mobile no : </b>".$mobile."<br/>";
@@ -73,8 +74,8 @@ function doEntryOfOTPInDb(string $firstname, string $lastname, string $email, st
         //for opt SMS
         //header("Location: ../assets/html/otp/index.html?mobile-no=".$mobile);
         //for email
-        header("Location: https://drive.google.com/file/d/1rTRPF4rl4IV29wpaymbAJYVkdwSP908q/view");
         $conn->close();
+        header("Location: https://drive.google.com/file/d/1rTRPF4rl4IV29wpaymbAJYVkdwSP908q/view");
         exit();
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;

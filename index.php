@@ -64,7 +64,8 @@
                             <div id="header-aside">
                                 <div class="header-aside-btn">
                                     <!--<a href="#"><span>Make an inquiry</span></a>-->
-                                    <a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Get Quote</span></a>
+                                    <a href="javascript:;" class="ancher" data-href="assets/html/inquiry-form.html" data-content="ajax"><span>Retail inquiry form</span></a>
+                                    <a href="javascript:;" class="ancher-dl" data-href="assets/html/dealership-inq-form.html" data-content="ajax"><span>Dealership inquiry form</span></a>
 
                                 </div>
 
@@ -72,7 +73,7 @@
                                     <div class="inner">
                                         <div class="info-one">
                                             <div class="info-wrap">
-                                                <div class="info-c"><span class="title">Get service for Installing TYREOSHIELD in your car at your door step now</span></div>
+                                                <div class="info-c"><span class="title">Get service for Installing<br/> TYREOSHIELD in your car at your door step now</span></div>
                                             </div>
                                         </div>
                                     </div>
@@ -722,6 +723,13 @@
                     width: "95%",
                     maxWidth: "320px",
                     title: "Inquiry Form for viewing presentation"
+                });
+            });
+            $(document).ready(function(e) {
+                $(".ancher-dl").lightWeightPopup({
+                    width: "95%",
+                    maxWidth: "320px",
+                    title: "Dealership inquiry form"
                 });
             });
         </script>

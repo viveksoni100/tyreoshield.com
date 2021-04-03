@@ -12,44 +12,31 @@
 
 <body class="big-fonts">
     <div class="p-3">
-        <form method="post" action="php/retail-inquiry.php">
+        <form method="post" action="php/dealership-inquiry.php">
             <div class="form-group">
                 <label>First Name</label>
-                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Enter your first name" required/>
+                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="Enter your first name" required>
             </div>
             <div class="form-group">
                 <label>Last Name</label>
-                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Enter your last name" required/>
+                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Enter your last name" required>
             </div>
             <div class="form-group">
                 <label>Mobile No.</label>
                 <input type="text" pattern="[0-9]{10}" value="" name="mobile" id="mobile" oninvalid="setCustomValidity('Please enter valid mobile no')" onchange="try{setCustomValidity('')}catch(e){}" placeholder="Enter your mobile no" required/>
             </div>
             <div class="form-group">
-                <label>Type of Vehicle : </label><br/>
-                <input type="radio" id="twoWheeler" name="vehicletype" value="Two Wheeler" required/>
-                <label for="twoWheeler">Two Wheeler</label><br>
-                <input type="radio" id="fourWheeler" name="vehicletype" value="Four Wheeler" required/>
-                <label for="fourWheeler">Four Wheeler</label><br>
-            </div>
-            <div class="form-group">
-                <label>Vehicle model or Tyre size details</label>
-                <input type="text" name="details" id="details" class="form-control" placeholder="Enter details" required/>
-            </div>
-            <div class="form-group">
                 <label>City</label>
-                <input type="text" name="city" id="city" class="form-control" placeholder="Enter your city" required/>
+                <input type="text" name="city" id="city" class="form-control" placeholder="Enter your city" required>
             </div>
             <div class="form-group">
                 <label>Pincode</label>
-                <input type="number" name="pincode" id="pincode" class="form-control" placeholder="Enter pincode" required/>
+                <input type="number" name="pincode" id="pincode" class="form-control" placeholder="Enter pincode" required>
             </div>
-            
             <div class="form-group">
                 <label>State</label>
-                <input type="text" name="state" id="state" class="form-control" placeholder="Enter pincode" required/>
+                <input type="text" name="state" id="state" class="form-control" placeholder="Enter pincode" required>
             </div>          
-            
             <div class="form-group">
             <label>Country</label>
             <select id="country" name="country" required>
@@ -300,7 +287,11 @@
                <option value="Zambia">Zambia</option>
                <option value="Zimbabwe">Zimbabwe</option>
             </select>
-            </div>            
+            </div>          
+            <div class="form-group">
+                <label>My inquiry is for : </label>
+                <input type="text" name="inq-for" id="inq-for" class="form-control" required>
+            </div>   
             <div class="form-group">
                 <input type="submit" name="button" value="Submit" class="btn btn-danger">
             </div>
