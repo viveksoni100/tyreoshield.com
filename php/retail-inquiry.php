@@ -73,7 +73,7 @@ function doEntryOfOTPInDb(string $firstname, string $lastname, string $mobile, s
         header("Location: ../assets/html/msg/inquiry-submitted.html");
         exit();
     } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
+        header("Location: ../assets/html/error/index.html");
         $conn->close();
     }
 }
