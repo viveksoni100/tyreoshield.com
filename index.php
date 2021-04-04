@@ -102,8 +102,10 @@
                                 <ul id="menu-primary-menu" class="menu">
                                     <!--<li class="menu-item"><a href="#">Product facts and Attributes</a></li>-->
                                     <li class="menu-item"><a href="#rowGallery">Gallery</a></li>
-                                    <li class="menu-item"><a href="#footer-widgets">Contact us</a></li>
+                                    <!--<li class="menu-item"><a href="#footer-widgets">Contact us</a></li>-->
                                     <li class="menu-item"><a href="#">About us</a></li>
+                                    <li class="menu-item"><a href="#inquiryforms">Contact for Product</a></li>
+                                    <li class="menu-item"><a href="#inquiryforms">Contact for Dealership</a></li>
                                     <!--<li class="menu-item"><a href="#">F A Q</a></li>-->
                                 </ul>
                             </nav><!-- /#main-nav -->
@@ -622,7 +624,7 @@
                                         </div><!-- /.container -->
                                     </div>
                                     
-                                    <div class="row-gallery" id="rowGallery">
+                                    <div class="row-gallery" id="inquiryforms">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-6">
@@ -1263,6 +1265,7 @@
                                         <li class="style-2"><a href="#rowGallery">Gallery</a></li>
                                         <li class="style-2"><a href="#footer-widgets">Contact us</a></li>
                                         <li class="style-2"><a href="#">About Us</a></li>
+                                        <li class="style-2"><a href="javascript:;" class="privacy-Policies" data-href="assets/html/privacy-Policies.html" data-content="ajax">Privacy Policy</a></li>
                                         <!--<li class="style-2"><a href="#">F A Q</a></li>-->
                                         <!--<li class="style-2"><a href="#">Product facts and Attributes</a></li>-->
                                     </ul>
@@ -1349,6 +1352,13 @@
                     width: "95%",
                     maxWidth: "320px",
                     title: "Dealership inquiry form"
+                });
+            });
+            $(document).ready(function(e) {
+                $(".privacy-Policies").lightWeightPopup({
+                    width: "95%",
+                    maxWidth: "320px",
+                    title: "Privacy Policy"
                 });
             });
         </script>
