@@ -431,7 +431,7 @@ del,
 table,
 th,
 td {
-    border: 1px solid #e0e0e0;
+    /*border: 1px solid #e0e0e0;*/
 }
 
 table {
@@ -446,8 +446,8 @@ table {
 caption,
 th,
 td {
-    font-weight: normal;
-    text-align: left;
+    /*font-weight: normal;
+    text-align: left;*/
 }
 
 th {
@@ -456,12 +456,12 @@ th {
 }
 
 td {
-    border-width: 0 1px 1px 0;
+    /*border-width: 0 1px 1px 0;*/
 }
 
 th,
 td {
-    padding: 8px 12px;
+    /*padding: 8px 12px;*/
 }
 
 /* Media */
