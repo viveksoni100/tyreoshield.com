@@ -1265,7 +1265,8 @@
                                         <li class="style-2"><a href="#rowGallery">Gallery</a></li>
                                         <li class="style-2"><a href="#footer-widgets">Contact us</a></li>
                                         <li class="style-2"><a href="#">About Us</a></li>
-                                        <li class="style-2"><a href="javascript:;" class="privacy-Policies" data-href="assets/html/privacy-Policies.html" data-content="ajax">Privacy Policy</a></li>
+                                        <li class="style-2"><a href="assets/html/privacy-Policies.html" target="_blank">Privacy Policy</a></li>
+                                        <!--<li class="style-2"><a href="javascript:;" class="privacy-Policies" data-href="assets/html/privacy-Policies.html" data-content="ajax">Privacy Policy</a></li>-->
                                         <!--<li class="style-2"><a href="#">F A Q</a></li>-->
                                         <!--<li class="style-2"><a href="#">Product facts and Attributes</a></li>-->
                                     </ul>
