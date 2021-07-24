@@ -40,15 +40,11 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $mobile,
     $mail = new PHPMailer();
     $mail->isSMTP();
     $mail->CharSet = "utf-8";
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
-    
-    $mail->Host = 'smtp.gmail.com';
-    //$mail->Host = 'smtp.mailtrap.io';
-    $mail->Port = 587;
-    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->SMTPSecure = 'tls';
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    $mail->Host = getSMTPHost();
+    $mail->Port = getSMTPPort();
+    $mail->SMTPSecure = 'ssl';
     $mail->SMTPAuth = true;
-    
     $mail->SMTPOptions = array(
         'ssl' => array(
             'verify_peer' => false,
@@ -56,14 +52,9 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $mobile,
             'allow_self_signed' => true
         )
     );
-    
-    $mail->Username = getTyreOShieldInfoMailId();
-    //$mail->Username = '50281ecd935f3f';
-    $mail->Password = 'TUREOSHIELD@1985';
-    //$mail->Password = '24637539b050bd';
-    
-    $mail->setFrom('vivek.fullstack.dev@gmail.com', 'Administrator');
-    
+    $mail->Username = getSMTPUserName();
+    $mail->Password = getSMTPPassword();
+    $mail->setFrom(getSMTPUserName(), 'Administrator');
     $mail->addAddress(getTyreOShieldInfoMailId(), 'Tusharbhai');
     //Set the subject line
     $mail->Subject = "Dealership inquiry form submission by ".$mobile."";

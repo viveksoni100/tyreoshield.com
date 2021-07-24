@@ -42,21 +42,31 @@ function sendAnEmailToAdmin(string $firstname, string $lastname, string $email, 
     //Create a new PHPMailer instance
     $mail = new PHPMailer();
     $mail->isSMTP();
-    //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
-    $mail->Host = 'smtp.gmail.com';
-    $mail->Port = 587;
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->CharSet = "utf-8";
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+    $mail->Host = getSMTPHost();
+    $mail->Port = getSMTPPort();
+    $mail->SMTPSecure = 'ssl';
     $mail->SMTPAuth = true;
-    $mail->Username = 'tyreoshield.inquiry@gmail.com';
-    $mail->Password = 'Admin@123';
-    $mail->setFrom('vivek.fullstack.dev@gmail.com', 'Administrator');
-    
+    $mail->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+        )
+    );    
+    $mail->Username = getSMTPUserName();
+    $mail->Password = getSMTPPassword();
+    $mail->setFrom(getSMTPUserName(), 'Administrator');
     $mail->addAddress(getTyreOShieldInfoMailId(), 'Tusharbhai');
+    
     //Set the subject line
     $mail->Subject = "Presentation downloaded by ".$mobile." ("."$email".")";
     $mail->Body = "<h3> View our presentation </h3><br/>"."<b>Name : </b>".$firstname." ".$lastname."<br/>"."<b>Email : </b>".$email."<br/>"."<b>Mobile no : </b>".$mobile."<br/>";
     /*$mail->Body = getBody($firstname, $lastname, $email, $mobile);*/
     $mail->AltBody = 'This is a plain-text message body';
+    
+    $mail->isHTML(true);// Set email format to HTML
 
     if (!$mail->send()) {
         echo 'Mailer Error: ' . $mail->ErrorInfo;
