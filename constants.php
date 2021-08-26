@@ -25,10 +25,12 @@ function getSMTPPort() {
     return 465;
 }
 function getSMTPUserName(){
-    return 'info@tyreoshield.com';
+    //return "info@tyreoshield.com";
+    return "admin@tyreoshield.com";
 }
 function getSMTPPassword(){
-    return 'Tusharbhai@123';
+    //return "Tusharbhai@123";
+    return "Admin@123";
 }
 
 /*To Tyreoshield Admin*/
